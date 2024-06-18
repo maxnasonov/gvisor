@@ -25,13 +25,13 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
 	"google.golang.org/protobuf/proto"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/limits"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/test"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/boot"
+	"github.com/maxnasonov/gvisor/pkg/sentry/kernel"
+	"github.com/maxnasonov/gvisor/pkg/sentry/limits"
+	"github.com/maxnasonov/gvisor/pkg/sentry/seccheck"
+	pb "github.com/maxnasonov/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/sentry/seccheck/sinks/remote/test"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/runsc/boot"
 )
 
 func remoteSinkConfig(endpoint string) seccheck.SinkConfig {

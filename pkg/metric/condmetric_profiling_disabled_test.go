@@ -20,7 +20,7 @@ package metric
 import (
 	"testing"
 
-	pb "gvisor.dev/gvisor/pkg/metric/metric_go_proto"
+	pb "github.com/maxnasonov/gvisor/pkg/metric/metric_go_proto"
 )
 
 func TestProfilingMetricsDisabled(t *testing.T) {

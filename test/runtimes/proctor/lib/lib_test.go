@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
 )
 
 func touch(t *testing.T, name string) {

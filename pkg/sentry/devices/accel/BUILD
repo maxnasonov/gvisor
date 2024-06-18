@@ -60,7 +60,7 @@ go_template_instance(
     name = "devaddr_set",
     out = "devaddr_set.go",
     imports = {
-        "mm": "gvisor.dev/gvisor/pkg/sentry/mm",
+        "mm": "github.com/maxnasonov/gvisor/pkg/sentry/mm",
     },
     package = "accel",
     prefix = "DevAddr",

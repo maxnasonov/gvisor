@@ -19,13 +19,13 @@ package fdbased
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/rawfile"
-	"gvisor.dev/gvisor/pkg/tcpip/link/stopfd"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/stack/gro"
+	"github.com/maxnasonov/gvisor/pkg/buffer"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/link/rawfile"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/link/stopfd"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack/gro"
 )
 
 // BufConfig defines the shape of the buffer used to read packets from the NIC.

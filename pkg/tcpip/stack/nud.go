@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
 )
 
 const (

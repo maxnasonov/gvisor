@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 	"math"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checksum"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/checksum"
 )
 
 const (

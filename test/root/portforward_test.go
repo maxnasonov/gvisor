@@ -33,11 +33,11 @@ import (
 
 	"github.com/syndtr/gocapability/capability"
 	"golang.org/x/sync/errgroup"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/maxnasonov/gvisor/pkg/cleanup"
+	"github.com/maxnasonov/gvisor/pkg/test/dockerutil"
+	"github.com/maxnasonov/gvisor/runsc/config"
+	"github.com/maxnasonov/gvisor/runsc/flag"
+	"github.com/maxnasonov/gvisor/runsc/specutils"
 )
 
 func TestPortForwardLocalMode(t *testing.T) {

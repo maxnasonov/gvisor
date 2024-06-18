@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/pkg/context"
+	"github.com/maxnasonov/gvisor/pkg/test/dockerutil"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
 )
 
 func TestGPUCheckpointRestore(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/test/gpu/stablediffusion"
+	"github.com/maxnasonov/gvisor/test/gpu/stablediffusion"
 )
 
 // TestStableDiffusionXL generates an image with Stable Diffusion XL.

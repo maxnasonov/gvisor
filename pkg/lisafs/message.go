@@ -20,9 +20,9 @@ import (
 	"os"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/marshal/primitive"
 )
 
 // Messages have two parts:

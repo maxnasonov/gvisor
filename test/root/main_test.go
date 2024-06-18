@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	"github.com/syndtr/gocapability/capability"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/maxnasonov/gvisor/pkg/test/dockerutil"
+	"github.com/maxnasonov/gvisor/runsc/config"
+	"github.com/maxnasonov/gvisor/runsc/flag"
+	"github.com/maxnasonov/gvisor/runsc/specutils"
 )
 
 // TestMain is the main function for root tests. This function checks the

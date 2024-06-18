@@ -17,10 +17,10 @@ package boot
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/abi"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	rpb "gvisor.dev/gvisor/pkg/sentry/arch/registers_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/strace"
+	"github.com/maxnasonov/gvisor/pkg/abi"
+	"github.com/maxnasonov/gvisor/pkg/sentry/arch"
+	rpb "github.com/maxnasonov/gvisor/pkg/sentry/arch/registers_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/sentry/strace"
 )
 
 const (

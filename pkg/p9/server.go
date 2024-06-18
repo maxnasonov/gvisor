@@ -19,14 +19,14 @@ import (
 	"runtime/debug"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/fdchannel"
-	"gvisor.dev/gvisor/pkg/flipcall"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/unet"
+	"github.com/maxnasonov/gvisor/pkg/atomicbitops"
+	"github.com/maxnasonov/gvisor/pkg/errors/linuxerr"
+	"github.com/maxnasonov/gvisor/pkg/fd"
+	"github.com/maxnasonov/gvisor/pkg/fdchannel"
+	"github.com/maxnasonov/gvisor/pkg/flipcall"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/unet"
 )
 
 // Server is a 9p2000.L server.

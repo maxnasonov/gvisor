@@ -15,9 +15,9 @@
 package gofer
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/context"
+	"github.com/maxnasonov/gvisor/pkg/sentry/vfs"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 type errPartialRevalidation struct{}

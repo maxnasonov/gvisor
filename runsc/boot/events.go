@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/control"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/pkg/sentry/control"
+	"github.com/maxnasonov/gvisor/pkg/sentry/usage"
 )
 
 // NetworkInterface is the network statistics of the particular network interface

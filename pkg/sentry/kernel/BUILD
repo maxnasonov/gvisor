@@ -315,8 +315,8 @@ go_library(
         "version.go",
     ],
     imports = [
-        "gvisor.dev/gvisor/pkg/bpf",
-        "gvisor.dev/gvisor/pkg/tcpip",
+        "github.com/maxnasonov/gvisor/pkg/bpf",
+        "github.com/maxnasonov/gvisor/pkg/tcpip",
     ],
     marshal = True,
     visibility = ["//:sandbox"],

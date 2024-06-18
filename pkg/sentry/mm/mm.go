@@ -38,15 +38,15 @@ package mm
 import (
 	"sync/atomic"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/atomicbitops"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/safemem"
+	"github.com/maxnasonov/gvisor/pkg/sentry/arch"
+	"github.com/maxnasonov/gvisor/pkg/sentry/memmap"
+	"github.com/maxnasonov/gvisor/pkg/sentry/pgalloc"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform"
+	"github.com/maxnasonov/gvisor/pkg/sentry/vfs"
 )
 
 // MapsCallbackFunc has all the parameters required for populating an entry of /proc/[pid]/maps.

@@ -15,10 +15,10 @@
 package kernel
 
 import (
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/kernfs"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/nsfs"
-	"gvisor.dev/gvisor/pkg/sentry/inet"
+	"github.com/maxnasonov/gvisor/pkg/errors/linuxerr"
+	"github.com/maxnasonov/gvisor/pkg/sentry/fsimpl/kernfs"
+	"github.com/maxnasonov/gvisor/pkg/sentry/fsimpl/nsfs"
+	"github.com/maxnasonov/gvisor/pkg/sentry/inet"
 )
 
 // IsNetworkNamespaced returns true if t is in a non-root network namespace.

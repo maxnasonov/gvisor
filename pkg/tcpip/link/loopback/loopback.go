@@ -23,9 +23,9 @@ package loopback
 import (
 	"sync"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack"
 )
 
 // +stateify savable

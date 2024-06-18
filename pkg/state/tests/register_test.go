@@ -21,7 +21,7 @@ import (
 	"context"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/maxnasonov/gvisor/pkg/state"
 )
 
 // faker calls itself whatever is in the name field.

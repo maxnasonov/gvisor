@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/test/gpu/ollama"
+	"github.com/maxnasonov/gvisor/pkg/test/dockerutil"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/test/gpu/ollama"
 )
 
 //go:embed gvisor.png

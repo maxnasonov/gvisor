@@ -37,8 +37,8 @@ import (
 	"github.com/go-echarts/go-echarts/v2/opts"
 	echartstypes "github.com/go-echarts/go-echarts/v2/types"
 	"google.golang.org/protobuf/encoding/protojson"
-	"gvisor.dev/gvisor/pkg/metric"
-	mpb "gvisor.dev/gvisor/pkg/metric/metric_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/metric"
+	mpb "github.com/maxnasonov/gvisor/pkg/metric/metric_go_proto"
 )
 
 const (

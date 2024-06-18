@@ -17,8 +17,8 @@ package vfs
 import (
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
 )
 
 // GenericParseMountOptions parses a comma-separated list of options of the

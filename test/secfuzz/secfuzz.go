@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/abi/sentry"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/bpf"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/abi/sentry"
+	"github.com/maxnasonov/gvisor/pkg/atomicbitops"
+	"github.com/maxnasonov/gvisor/pkg/bpf"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 // Fuzzee wraps a program for the purpose of fuzzing.

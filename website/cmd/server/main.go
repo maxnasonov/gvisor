@@ -64,7 +64,7 @@ var redirects = map[string]string{
 	"/cl": "https://gvisor-review.googlesource.com",
 
 	// Access package documentation.
-	"/gvisor": "https://pkg.go.dev/gvisor.dev/gvisor",
+	"/gvisor": "https://pkg.go.dev/github.com/maxnasonov/gvisor",
 
 	// Code search root.
 	"/cs": "https://cs.opensource.google/gvisor/gvisor",
@@ -89,7 +89,7 @@ var prefixHelpers = map[string]prefixInfo{
 	"cl": {baseURL: "https://gvisor-review.googlesource.com/c/gvisor/+/%s", checkValidID: true},
 
 	// Redirect to source documentation.
-	"gvisor": {baseURL: "https://pkg.go.dev/gvisor.dev/gvisor/%s"},
+	"gvisor": {baseURL: "https://pkg.go.dev/github.com/maxnasonov/gvisor/%s"},
 
 	// Redirect to code search, with the path as the query.
 	"cs": {baseURL: "https://cs.opensource.google/search?q=%s&ss=gvisor", queryEscape: true},
@@ -98,7 +98,7 @@ var prefixHelpers = map[string]prefixInfo{
 var (
 	validID    = regexp.MustCompile(`^[A-Za-z0-9-]*/?$`)
 	goGetHTML5 = `<!doctype html><html><head><meta charset=utf-8>
-<meta name="go-import" content="gvisor.dev/gvisor git https://github.com/google/gvisor">
+<meta name="go-import" content="github.com/maxnasonov/gvisor git https://github.com/google/gvisor">
 <meta name="go-import" content="gvisor.dev/website git https://github.com/google/gvisor-website">
 <title>Go-get</title></head><body></html>`
 )

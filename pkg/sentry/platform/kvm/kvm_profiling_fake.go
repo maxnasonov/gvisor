@@ -18,7 +18,7 @@
 package kvm
 
 import (
-	"gvisor.dev/gvisor/pkg/metric"
+	"github.com/maxnasonov/gvisor/pkg/metric"
 )
 
 // KVMProfiling is a builder that produces conditionally compiled metrics.

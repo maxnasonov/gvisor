@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/faketime"
-	"gvisor.dev/gvisor/pkg/tcpip/link/channel"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv6"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/faketime"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/link/channel"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/network/ipv6"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack"
 )
 
 const (

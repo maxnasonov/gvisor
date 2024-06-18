@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"strings"
 
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/cluster"
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/provider/gke"
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/provider/kubectl"
+	"github.com/maxnasonov/gvisor/tools/gvisor_k8s_tool/cluster"
+	"github.com/maxnasonov/gvisor/tools/gvisor_k8s_tool/provider/gke"
+	"github.com/maxnasonov/gvisor/tools/gvisor_k8s_tool/provider/kubectl"
 )
 
 // Provider is a cluster provider.

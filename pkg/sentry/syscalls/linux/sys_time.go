@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	ktime "gvisor.dev/gvisor/pkg/sentry/kernel/time"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/errors/linuxerr"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/marshal/primitive"
+	"github.com/maxnasonov/gvisor/pkg/sentry/arch"
+	"github.com/maxnasonov/gvisor/pkg/sentry/kernel"
+	ktime "github.com/maxnasonov/gvisor/pkg/sentry/kernel/time"
 )
 
 // The most significant 29 bits hold either a pid or a file descriptor.

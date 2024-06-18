@@ -22,14 +22,14 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checker"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp/test/e2e"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp/testing/context"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/maxnasonov/gvisor/pkg/refs"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/checker"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/transport/tcp"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/transport/tcp/test/e2e"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/transport/tcp/testing/context"
+	"github.com/maxnasonov/gvisor/pkg/waiter"
 )
 
 // createConnectedWithTimestampOption creates and connects c.ep with the

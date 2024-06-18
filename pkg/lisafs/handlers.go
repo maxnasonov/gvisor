@@ -20,13 +20,13 @@ import (
 	"strings"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/flipcall"
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/p9"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/cleanup"
+	"github.com/maxnasonov/gvisor/pkg/flipcall"
+	"github.com/maxnasonov/gvisor/pkg/fspath"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/pkg/marshal/primitive"
+	"github.com/maxnasonov/gvisor/pkg/p9"
 )
 
 const (

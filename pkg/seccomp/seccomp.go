@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/bpf"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/bpf"
+	"github.com/maxnasonov/gvisor/pkg/log"
 )
 
 const (

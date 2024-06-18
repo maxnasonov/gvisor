@@ -23,8 +23,8 @@ import (
 
 	"golang.org/x/sys/unix"
 	"google.golang.org/protobuf/proto"
-	"gvisor.dev/gvisor/pkg/log"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	pb "github.com/maxnasonov/gvisor/pkg/sentry/seccheck/points/points_go_proto"
 )
 
 // Replay implements the functionality required for the "replay" command.

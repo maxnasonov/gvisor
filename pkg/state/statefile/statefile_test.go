@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/compressio"
+	"github.com/maxnasonov/gvisor/pkg/compressio"
 )
 
 func randomKey() ([]byte, error) {

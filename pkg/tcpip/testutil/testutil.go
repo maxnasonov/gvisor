@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
 )
 
 // MustParse4 parses an IPv4 string (e.g. "192.168.1.1") into a tcpip.Address.

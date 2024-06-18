@@ -17,9 +17,9 @@ package memdev
 import (
 	"io"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/maxnasonov/gvisor/pkg/context"
+	"github.com/maxnasonov/gvisor/pkg/sentry/vfs"
+	"github.com/maxnasonov/gvisor/pkg/usermem"
 )
 
 const nullDevMinor = 3

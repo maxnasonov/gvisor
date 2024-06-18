@@ -15,7 +15,7 @@
 package kernel
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
 )
 
 // SignalHandlers holds information about signal actions.

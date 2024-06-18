@@ -10,7 +10,7 @@ alias(
     actual = "@com_github_golang_mock//mockgen:mockgen",
 )
 
-MOCK_SRC_PACKAGE = "gvisor.dev/gvisor/pkg/p9"
+MOCK_SRC_PACKAGE = "github.com/maxnasonov/gvisor/pkg/p9"
 
 # mockgen_reflect is a source file that contains mock generation code that
 # imports the p9 package and generates a specification via reflection. The

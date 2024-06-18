@@ -21,17 +21,17 @@ import (
 	"strconv"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checksum"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/channel"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv6"
-	"gvisor.dev/gvisor/pkg/tcpip/ports"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/udp"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/maxnasonov/gvisor/pkg/buffer"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/checksum"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/link/channel"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/network/ipv4"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/network/ipv6"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/ports"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/transport/udp"
+	"github.com/maxnasonov/gvisor/pkg/waiter"
 )
 
 const (

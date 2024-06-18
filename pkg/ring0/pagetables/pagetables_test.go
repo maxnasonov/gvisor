@@ -17,7 +17,7 @@ package pagetables
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
 )
 
 type mapping struct {

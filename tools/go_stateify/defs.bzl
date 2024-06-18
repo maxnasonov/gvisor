@@ -55,6 +55,6 @@ for statified types.
             cfg = "exec",
             default = Label("//tools/go_stateify:stateify"),
         ),
-        "_statepkg": attr.string(default = "gvisor.dev/gvisor/pkg/state"),
+        "_statepkg": attr.string(default = "github.com/maxnasonov/gvisor/pkg/state"),
     },
 )

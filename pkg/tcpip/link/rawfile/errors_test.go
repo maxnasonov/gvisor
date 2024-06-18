@@ -22,7 +22,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
 )
 
 func TestTranslateErrno(t *testing.T) {

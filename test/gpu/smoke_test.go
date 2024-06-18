@@ -19,7 +19,7 @@ import (
 	"context"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
+	"github.com/maxnasonov/gvisor/pkg/test/dockerutil"
 )
 
 func TestGPUHello(t *testing.T) {

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/buffer"
+	"github.com/maxnasonov/gvisor/pkg/buffer"
 )
 
 func TestPacketHeaderPush(t *testing.T) {

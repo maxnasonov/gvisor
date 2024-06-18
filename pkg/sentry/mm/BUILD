@@ -51,7 +51,7 @@ go_template_instance(
         "trackGaps": "1",
     },
     imports = {
-        "hostarch": "gvisor.dev/gvisor/pkg/hostarch",
+        "hostarch": "github.com/maxnasonov/gvisor/pkg/hostarch",
     },
     package = "mm",
     prefix = "vma",
@@ -71,7 +71,7 @@ go_template_instance(
         "minDegree": "8",
     },
     imports = {
-        "hostarch": "gvisor.dev/gvisor/pkg/hostarch",
+        "hostarch": "github.com/maxnasonov/gvisor/pkg/hostarch",
     },
     package = "mm",
     prefix = "pma",

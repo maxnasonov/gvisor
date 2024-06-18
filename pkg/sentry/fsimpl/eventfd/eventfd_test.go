@@ -17,11 +17,11 @@ package eventfd
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/usermem"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/sentry/contexttest"
+	"github.com/maxnasonov/gvisor/pkg/sentry/vfs"
+	"github.com/maxnasonov/gvisor/pkg/usermem"
+	"github.com/maxnasonov/gvisor/pkg/waiter"
 )
 
 func TestEventFD(t *testing.T) {

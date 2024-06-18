@@ -19,7 +19,7 @@ import (
 	"context"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
+	"github.com/maxnasonov/gvisor/pkg/test/dockerutil"
 )
 
 // runPytorch runs the given script and command in a PyTorch container.

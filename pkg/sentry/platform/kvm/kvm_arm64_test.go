@@ -20,7 +20,7 @@ package kvm
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/platform/kvm/testutil"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform/kvm/testutil"
 )
 
 func TestKernelTLS(t *testing.T) {

@@ -16,8 +16,8 @@
 package client
 
 import (
-	"gvisor.dev/gvisor/pkg/unet"
-	"gvisor.dev/gvisor/pkg/urpc"
+	"github.com/maxnasonov/gvisor/pkg/unet"
+	"github.com/maxnasonov/gvisor/pkg/urpc"
 )
 
 // ConnectTo attempts to connect to the sandbox with the given address.

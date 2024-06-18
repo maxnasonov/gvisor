@@ -27,12 +27,12 @@ var standardImports = []string{
 	"reflect",
 	"testing",
 
-	"gvisor.dev/gvisor/tools/go_marshal/analysis",
+	"github.com/maxnasonov/gvisor/tools/go_marshal/analysis",
 }
 
 var sliceAPIImports = []string{
 	"encoding/binary",
-	"gvisor.dev/gvisor/pkg/hostarch",
+	"github.com/maxnasonov/gvisor/pkg/hostarch",
 }
 
 type testGenerator struct {

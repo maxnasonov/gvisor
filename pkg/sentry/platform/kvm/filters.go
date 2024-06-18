@@ -17,9 +17,9 @@ package kvm
 import (
 	"golang.org/x/sys/unix"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform"
 )
 
 // SeccompInfo returns seccomp information for the KVM platform.

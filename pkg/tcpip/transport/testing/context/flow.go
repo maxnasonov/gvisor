@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checker"
-	"gvisor.dev/gvisor/pkg/tcpip/checksum"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv6"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/udp"
+	"github.com/maxnasonov/gvisor/pkg/buffer"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/checker"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/checksum"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/network/ipv4"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/network/ipv6"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/transport/udp"
 )
 
 const (

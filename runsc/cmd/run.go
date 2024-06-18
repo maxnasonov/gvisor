@@ -20,12 +20,12 @@ import (
 
 	"github.com/google/subcommands"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/container"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/runsc/cmd/util"
+	"github.com/maxnasonov/gvisor/runsc/config"
+	"github.com/maxnasonov/gvisor/runsc/container"
+	"github.com/maxnasonov/gvisor/runsc/flag"
+	"github.com/maxnasonov/gvisor/runsc/specutils"
 )
 
 // Run implements subcommands.Command for the "run" command.

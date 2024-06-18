@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/buffer"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/faketime"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/buffer"
+	"github.com/maxnasonov/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/faketime"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
 )
 
 const (

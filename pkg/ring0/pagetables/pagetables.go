@@ -21,7 +21,7 @@
 package pagetables
 
 import (
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
 )
 
 // PageTables is a set of page tables.

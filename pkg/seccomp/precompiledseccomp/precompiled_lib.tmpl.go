@@ -19,8 +19,8 @@ package precompiled
 import (
 	"sort"
 
-	"gvisor.dev/gvisor/pkg/seccomp/precompiledseccomp"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/seccomp/precompiledseccomp"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 var (

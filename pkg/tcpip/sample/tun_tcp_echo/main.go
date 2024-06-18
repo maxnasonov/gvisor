@@ -32,16 +32,16 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/link/fdbased"
-	"gvisor.dev/gvisor/pkg/tcpip/link/rawfile"
-	"gvisor.dev/gvisor/pkg/tcpip/link/tun"
-	"gvisor.dev/gvisor/pkg/tcpip/network/arp"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv6"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/link/fdbased"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/link/rawfile"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/link/tun"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/network/arp"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/network/ipv4"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/network/ipv6"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/transport/tcp"
+	"github.com/maxnasonov/gvisor/pkg/waiter"
 )
 
 var tap = flag.Bool("tap", false, "use tap instead of tun")

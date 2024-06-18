@@ -19,7 +19,7 @@ import (
 	"slices"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
 )
 
 func TestEncodeSACKBlocks(t *testing.T) {

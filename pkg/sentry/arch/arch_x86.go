@@ -22,11 +22,11 @@ import (
 	"io"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/arch/fpu"
-	rpb "gvisor.dev/gvisor/pkg/sentry/arch/registers_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/cpuid"
+	"github.com/maxnasonov/gvisor/pkg/errors/linuxerr"
+	"github.com/maxnasonov/gvisor/pkg/sentry/arch/fpu"
+	rpb "github.com/maxnasonov/gvisor/pkg/sentry/arch/registers_go_proto"
 )
 
 // Registers represents the CPU registers for this architecture.

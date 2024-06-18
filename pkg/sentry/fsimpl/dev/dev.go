@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"path"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/tmpfs"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/context"
+	"github.com/maxnasonov/gvisor/pkg/errors/linuxerr"
+	"github.com/maxnasonov/gvisor/pkg/fspath"
+	"github.com/maxnasonov/gvisor/pkg/sentry/fsimpl/tmpfs"
+	"github.com/maxnasonov/gvisor/pkg/sentry/kernel/auth"
+	"github.com/maxnasonov/gvisor/pkg/sentry/vfs"
 )
 
 // Name is the dev filesystem name.

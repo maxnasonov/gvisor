@@ -16,7 +16,7 @@ go_library(
         "optimizer.go",
         "program_builder.go",
     ],
-    imports = ["gvisor.dev/gvisor/pkg/abi/linux"],
+    imports = ["github.com/maxnasonov/gvisor/pkg/abi/linux"],
     visibility = ["//visibility:public"],
     deps = ["//pkg/abi/linux"],
 )

@@ -25,8 +25,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/pkg/sentry/devices/nvproxy"
 )
 
 const (

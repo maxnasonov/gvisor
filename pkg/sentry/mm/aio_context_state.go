@@ -17,7 +17,7 @@ package mm
 import (
 	"context"
 
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
+	"github.com/maxnasonov/gvisor/pkg/sentry/pgalloc"
 )
 
 // afterLoad is invoked by stateify.

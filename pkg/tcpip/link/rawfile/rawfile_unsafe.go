@@ -24,7 +24,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
 )
 
 // SizeofIovec is the size of a unix.Iovec in bytes.

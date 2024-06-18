@@ -25,8 +25,8 @@ import (
 	"os"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/tools/xdp/cmd"
+	"github.com/maxnasonov/gvisor/runsc/flag"
+	"github.com/maxnasonov/gvisor/tools/xdp/cmd"
 )
 
 func main() {

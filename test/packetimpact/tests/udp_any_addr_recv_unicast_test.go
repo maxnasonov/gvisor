@@ -21,7 +21,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/maxnasonov/gvisor/test/packetimpact/testbench"
 )
 
 func init() {

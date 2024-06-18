@@ -19,11 +19,11 @@ package contexttest
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
+	"github.com/maxnasonov/gvisor/pkg/context"
+	"github.com/maxnasonov/gvisor/pkg/sentry/contexttest"
+	"github.com/maxnasonov/gvisor/pkg/sentry/kernel"
+	"github.com/maxnasonov/gvisor/pkg/sentry/pgalloc"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform"
 )
 
 // Context returns a Context that may be used in tests. Uses ptrace as the

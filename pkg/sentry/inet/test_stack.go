@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/socket/netlink/nlmsg"
-	"gvisor.dev/gvisor/pkg/syserr"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/maxnasonov/gvisor/pkg/context"
+	"github.com/maxnasonov/gvisor/pkg/sentry/socket/netlink/nlmsg"
+	"github.com/maxnasonov/gvisor/pkg/syserr"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack"
 )
 
 // TestStack is a dummy implementation of Stack for tests.

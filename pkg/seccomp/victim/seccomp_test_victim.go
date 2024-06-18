@@ -22,7 +22,7 @@ import (
 	"os"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
 )
 
 func main() {

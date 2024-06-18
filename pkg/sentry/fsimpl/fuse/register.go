@@ -15,8 +15,8 @@
 package fuse
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/sentry/vfs"
 )
 
 // Register registers the FUSE device with vfsObj.

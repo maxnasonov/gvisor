@@ -16,7 +16,7 @@ package veth
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
 )
 
 func TestSetLinkAddress(t *testing.T) {

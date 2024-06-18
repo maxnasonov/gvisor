@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/bitmap"
+	"github.com/maxnasonov/gvisor/pkg/bitmap"
 )
 
 // formatBitmap produces a string representation of b, which lists the indices

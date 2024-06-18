@@ -20,13 +20,13 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/platform/kvm"
-	"gvisor.dev/gvisor/pkg/sentry/platform/systrap"
-	"gvisor.dev/gvisor/runsc/boot/filter/config"
-	"gvisor.dev/gvisor/test/secbench"
-	"gvisor.dev/gvisor/test/secbench/secbenchdef"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform/kvm"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform/systrap"
+	"github.com/maxnasonov/gvisor/runsc/boot/filter/config"
+	"github.com/maxnasonov/gvisor/test/secbench"
+	"github.com/maxnasonov/gvisor/test/secbench/secbenchdef"
 )
 
 type Options struct {

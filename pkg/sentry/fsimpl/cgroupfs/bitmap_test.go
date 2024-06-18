@@ -19,7 +19,7 @@ import (
 	"slices"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/bitmap"
+	"github.com/maxnasonov/gvisor/pkg/bitmap"
 )
 
 func TestFormat(t *testing.T) {

@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/metric"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/test/metricsviz"
+	"github.com/maxnasonov/gvisor/pkg/metric"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/test/metricsviz"
 )
 
 func TestMetricsvizCLI(t *testing.T) {

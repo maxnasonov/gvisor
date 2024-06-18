@@ -14,7 +14,7 @@
 
 package test
 
-import "gvisor.dev/gvisor/pkg/marshal/primitive"
+import "github.com/maxnasonov/gvisor/pkg/marshal/primitive"
 
 // Type12Dynamic is a dynamically sized struct which depends on the
 // autogenerator to generate some Marshallable methods for it.

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/maxnasonov/gvisor/pkg/sentry/arch"
 )
 
 // TLSWorks is a tls test.

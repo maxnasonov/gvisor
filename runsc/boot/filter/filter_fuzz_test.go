@@ -17,11 +17,11 @@ package filter_fuzz_test
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/platform/systrap"
-	"gvisor.dev/gvisor/runsc/boot/filter/config"
-	"gvisor.dev/gvisor/test/secfuzz"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform/systrap"
+	"github.com/maxnasonov/gvisor/runsc/boot/filter/config"
+	"github.com/maxnasonov/gvisor/test/secfuzz"
 )
 
 // FuzzFilterOptimizationsResultInConsistentProgram tests that optimizations

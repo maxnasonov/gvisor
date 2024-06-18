@@ -29,7 +29,7 @@ def _go_proto_or_grpc_library(go_library_func, name, **kwargs):
             deps.append(d.replace("_proto", "_go_proto"))
     go_library_func(
         name = name + "_go_proto",
-        importpath = "gvisor.dev/gvisor/" + native.package_name() + "/" + name + "_go_proto",
+        importpath = "github.com/maxnasonov/gvisor/" + native.package_name() + "/" + name + "_go_proto",
         proto = ":" + name + "_proto",
         deps = deps,
         **kwargs
@@ -77,7 +77,7 @@ def go_importpath(target):
 def go_library(name, arch_deps = [], **kwargs):
     _go_library(
         name = name,
-        importpath = "gvisor.dev/gvisor/" + native.package_name(),
+        importpath = "github.com/maxnasonov/gvisor/" + native.package_name(),
         **kwargs
     )
 

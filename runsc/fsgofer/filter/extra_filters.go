@@ -18,7 +18,7 @@
 package filter
 
 import (
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
 )
 
 // instrumentationFilters returns additional filters for syscalls used by

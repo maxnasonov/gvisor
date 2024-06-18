@@ -39,10 +39,10 @@ import (
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/test/packetimpact/dut"
-	"gvisor.dev/gvisor/test/packetimpact/internal/testing"
-	netdevs "gvisor.dev/gvisor/test/packetimpact/netdevs/netlink"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/maxnasonov/gvisor/test/packetimpact/dut"
+	"github.com/maxnasonov/gvisor/test/packetimpact/internal/testing"
+	netdevs "github.com/maxnasonov/gvisor/test/packetimpact/netdevs/netlink"
+	"github.com/maxnasonov/gvisor/test/packetimpact/testbench"
 )
 
 type dutArgList []string

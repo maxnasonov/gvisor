@@ -20,10 +20,10 @@ import (
 	"slices"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/bpf"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/seccomp/precompiledseccomp"
-	"gvisor.dev/gvisor/pkg/seccomp/precompiledseccomp/example"
+	"github.com/maxnasonov/gvisor/pkg/bpf"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/seccomp/precompiledseccomp"
+	"github.com/maxnasonov/gvisor/pkg/seccomp/precompiledseccomp/example"
 )
 
 // comparePrograms verifies that the precompiled and freshly-compiled programs

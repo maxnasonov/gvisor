@@ -18,7 +18,7 @@ package test
 import (
 	// We're intentionally using a package name alias here even though it's not
 	// necessary to test the code generator's ability to handle package aliases.
-	ex "gvisor.dev/gvisor/tools/go_marshal/test/external"
+	ex "github.com/maxnasonov/gvisor/tools/go_marshal/test/external"
 )
 
 // Type1 is a test data type.

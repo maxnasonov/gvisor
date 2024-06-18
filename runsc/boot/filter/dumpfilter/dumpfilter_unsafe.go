@@ -18,7 +18,7 @@ package main
 import (
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/bpf"
+	"github.com/maxnasonov/gvisor/pkg/bpf"
 )
 
 // InstructionsToBytecode returns raw the BPF bytecode for the given program.

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
+	"github.com/maxnasonov/gvisor/pkg/errors/linuxerr"
 )
 
 type entry struct {

@@ -18,9 +18,9 @@ import (
 	_ "embed"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/socket/netfilter"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/maxnasonov/gvisor/pkg/sentry/kernel/auth"
+	"github.com/maxnasonov/gvisor/pkg/sentry/socket/netfilter"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack"
 )
 
 // FakeIDMapper implements IDMapper.

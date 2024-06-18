@@ -31,7 +31,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/maxnasonov/gvisor/test/packetimpact/testbench"
 )
 
 const (

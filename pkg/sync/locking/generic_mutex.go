@@ -17,8 +17,8 @@ package locking
 import (
 	"reflect"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/sync/locking"
+	"github.com/maxnasonov/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/sync/locking"
 )
 
 // Mutex is sync.Mutex with the correctness validator.

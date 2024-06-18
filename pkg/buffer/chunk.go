@@ -17,8 +17,8 @@ package buffer
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/bits"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/bits"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 const (

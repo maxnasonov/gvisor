@@ -20,7 +20,7 @@ import (
 	"runtime"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 func TestSimpleReadWrite(t *testing.T) {

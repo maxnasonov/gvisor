@@ -17,10 +17,10 @@
 package ethernet
 
 import (
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/nested"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/link/nested"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack"
 )
 
 var _ stack.NetworkDispatcher = (*Endpoint)(nil)

@@ -19,10 +19,10 @@ import (
 	"fmt"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/container"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/maxnasonov/gvisor/runsc/cmd/util"
+	"github.com/maxnasonov/gvisor/runsc/config"
+	"github.com/maxnasonov/gvisor/runsc/container"
+	"github.com/maxnasonov/gvisor/runsc/flag"
 )
 
 // list implements subcommands.Command for the "list" command.

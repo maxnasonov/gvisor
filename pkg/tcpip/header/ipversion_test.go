@@ -17,7 +17,7 @@ package header_test
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
 )
 
 func TestIPv4(t *testing.T) {

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/erofs"
+	"github.com/maxnasonov/gvisor/pkg/sentry/fsimpl/erofs"
 )
 
 // GoferMountConfUpperType describes how upper layer is configured for the gofer mount.

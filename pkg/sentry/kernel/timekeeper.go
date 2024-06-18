@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/log"
-	ktime "gvisor.dev/gvisor/pkg/sentry/kernel/time"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
-	sentrytime "gvisor.dev/gvisor/pkg/sentry/time"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/atomicbitops"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	ktime "github.com/maxnasonov/gvisor/pkg/sentry/kernel/time"
+	"github.com/maxnasonov/gvisor/pkg/sentry/memmap"
+	"github.com/maxnasonov/gvisor/pkg/sentry/pgalloc"
+	sentrytime "github.com/maxnasonov/gvisor/pkg/sentry/time"
+	"github.com/maxnasonov/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
 )
 
 // Timekeeper manages all of the kernel clocks.

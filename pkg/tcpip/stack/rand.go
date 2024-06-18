@@ -17,7 +17,7 @@ package stack
 import (
 	"math/rand"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 // lockedRandomSource provides a threadsafe rand.Source.

@@ -21,14 +21,14 @@ import (
 	"io"
 	"runtime"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
-	"gvisor.dev/gvisor/pkg/state"
-	"gvisor.dev/gvisor/pkg/state/statefile"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/atomicbitops"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/pkg/sentry/memmap"
+	"github.com/maxnasonov/gvisor/pkg/sentry/usage"
+	"github.com/maxnasonov/gvisor/pkg/state"
+	"github.com/maxnasonov/gvisor/pkg/state/statefile"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 // SaveOpts provides options to MemoryFile.SaveTo().

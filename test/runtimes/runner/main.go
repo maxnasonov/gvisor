@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/test/runtimes/runner/lib"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/test/runtimes/runner/lib"
 )
 
 var (

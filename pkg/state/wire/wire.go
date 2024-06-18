@@ -32,8 +32,8 @@ import (
 	"io"
 	"math"
 
-	"gvisor.dev/gvisor/pkg/gohacks"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/gohacks"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 var oneByteArrayPool = sync.Pool{

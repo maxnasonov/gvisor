@@ -19,12 +19,12 @@
 package uevent
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/socket/netlink"
-	"gvisor.dev/gvisor/pkg/sentry/socket/netlink/nlmsg"
-	"gvisor.dev/gvisor/pkg/syserr"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/context"
+	"github.com/maxnasonov/gvisor/pkg/sentry/kernel"
+	"github.com/maxnasonov/gvisor/pkg/sentry/socket/netlink"
+	"github.com/maxnasonov/gvisor/pkg/sentry/socket/netlink/nlmsg"
+	"github.com/maxnasonov/gvisor/pkg/syserr"
 )
 
 // Protocol implements netlink.Protocol.

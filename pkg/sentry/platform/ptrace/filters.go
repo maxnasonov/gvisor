@@ -16,8 +16,8 @@ package ptrace
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform"
 )
 
 // SeccompInfo returns seccomp information for the ptrace platform.

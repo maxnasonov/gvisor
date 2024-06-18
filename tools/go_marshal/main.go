@@ -27,7 +27,7 @@ import (
 	"os"
 	"strings"
 
-	"gvisor.dev/gvisor/tools/go_marshal/gomarshal"
+	"github.com/maxnasonov/gvisor/tools/go_marshal/gomarshal"
 )
 
 var (

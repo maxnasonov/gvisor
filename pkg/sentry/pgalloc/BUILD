@@ -54,7 +54,7 @@ go_template_instance(
         "trackGaps": "1",
     },
     imports = {
-        "memmap": "gvisor.dev/gvisor/pkg/sentry/memmap",
+        "memmap": "github.com/maxnasonov/gvisor/pkg/sentry/memmap",
     },
     package = "pgalloc",
     prefix = "usage",
@@ -74,7 +74,7 @@ go_template_instance(
         "minDegree": "10",
     },
     imports = {
-        "memmap": "gvisor.dev/gvisor/pkg/sentry/memmap",
+        "memmap": "github.com/maxnasonov/gvisor/pkg/sentry/memmap",
     },
     package = "pgalloc",
     prefix = "reclaim",

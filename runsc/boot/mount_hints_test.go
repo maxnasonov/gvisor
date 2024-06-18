@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/erofs"
-	"gvisor.dev/gvisor/runsc/config"
+	"github.com/maxnasonov/gvisor/pkg/sentry/fsimpl/erofs"
+	"github.com/maxnasonov/gvisor/runsc/config"
 )
 
 func TestPodMountHintsHappy(t *testing.T) {

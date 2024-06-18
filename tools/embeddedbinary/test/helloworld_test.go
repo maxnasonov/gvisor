@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
 )
 
 // TestHelloworld executes helloworld_bundler and verifies that its output

@@ -28,10 +28,10 @@ import (
 	"strconv"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/test/packetimpact/dut"
-	"gvisor.dev/gvisor/test/packetimpact/dut/linux"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/test/packetimpact/dut"
+	"github.com/maxnasonov/gvisor/test/packetimpact/dut/linux"
+	"github.com/maxnasonov/gvisor/test/packetimpact/testbench"
 )
 
 var _ dut.DUT = (*native)(nil)

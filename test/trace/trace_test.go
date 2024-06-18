@@ -25,11 +25,11 @@ import (
 
 	"golang.org/x/sys/unix"
 	"google.golang.org/protobuf/proto"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/test"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/test/trace/config"
+	"github.com/maxnasonov/gvisor/pkg/sentry/seccheck"
+	pb "github.com/maxnasonov/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/sentry/seccheck/sinks/remote/test"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/test/trace/config"
 )
 
 var cutoffTime time.Time

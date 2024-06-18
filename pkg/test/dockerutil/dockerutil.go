@@ -31,8 +31,8 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/cgroup"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/runsc/cgroup"
 )
 
 var (

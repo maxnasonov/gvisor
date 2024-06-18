@@ -29,9 +29,9 @@ import (
 
 	"github.com/prometheus/common/expfmt"
 	"google.golang.org/protobuf/proto"
-	pb "gvisor.dev/gvisor/pkg/metric/metric_go_proto"
-	"gvisor.dev/gvisor/pkg/prometheus"
-	"gvisor.dev/gvisor/pkg/sync"
+	pb "github.com/maxnasonov/gvisor/pkg/metric/metric_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/prometheus"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 const (

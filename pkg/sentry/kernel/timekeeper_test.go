@@ -17,12 +17,12 @@ package kernel
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
-	sentrytime "gvisor.dev/gvisor/pkg/sentry/time"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
+	"github.com/maxnasonov/gvisor/pkg/errors/linuxerr"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/sentry/contexttest"
+	"github.com/maxnasonov/gvisor/pkg/sentry/pgalloc"
+	sentrytime "github.com/maxnasonov/gvisor/pkg/sentry/time"
+	"github.com/maxnasonov/gvisor/pkg/sentry/usage"
 )
 
 // mockClocks is a sentrytime.Clocks that simply returns the times in the

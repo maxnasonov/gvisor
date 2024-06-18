@@ -24,7 +24,7 @@ import (
 	"sort"
 	"strconv"
 
-	"gvisor.dev/gvisor/tools/go_generics/globals"
+	"github.com/maxnasonov/gvisor/tools/go_generics/globals"
 )
 
 type importedPackage struct {

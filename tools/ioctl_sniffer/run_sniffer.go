@@ -21,8 +21,8 @@ import (
 	"os"
 	"os/exec"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/tools/ioctl_sniffer/sniffer"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/tools/ioctl_sniffer/sniffer"
 )
 
 var ldPreloadPath = flag.String("ld_preload", "./libioctl_hook.so", "The path to the LD_PRELOAD library.")

@@ -18,8 +18,8 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/fd"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 type chunk struct {

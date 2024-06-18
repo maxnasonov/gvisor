@@ -10,7 +10,7 @@ precompiled_seccomp_rules(
     name = "example_precompiled",
     out = "usage_embedded.go",
     out_package_name = "usage",
-    programs_to_compile_go_import = "gvisor.dev/gvisor/pkg/seccomp/precompiledseccomp/example",
+    programs_to_compile_go_import = "github.com/maxnasonov/gvisor/pkg/seccomp/precompiledseccomp/example",
     programs_to_compile_go_library = "//pkg/seccomp/precompiledseccomp/example",
 )
 

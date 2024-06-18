@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostos"
+	"github.com/maxnasonov/gvisor/pkg/hostos"
 )
 
 func TestEnable(t *testing.T) {

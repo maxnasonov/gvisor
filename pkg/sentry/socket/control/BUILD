@@ -11,7 +11,7 @@ go_library(
         "control.go",
     ],
     imports = [
-        "gvisor.dev/gvisor/pkg/sentry/fs",
+        "github.com/maxnasonov/gvisor/pkg/sentry/fs",
     ],
     visibility = ["//pkg/sentry:internal"],
     deps = [

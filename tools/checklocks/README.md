@@ -14,7 +14,7 @@ For external usage and to iterate quickly, it may be used as part of `go vet`.
 You can install the tool separately via:
 
 ```sh
-go install gvisor.dev/gvisor/tools/checklocks/cmd/checklocks@go
+go install github.com/maxnasonov/gvisor/tools/checklocks/cmd/checklocks@go
 ```
 
 And, if installed to the default path, run it via:

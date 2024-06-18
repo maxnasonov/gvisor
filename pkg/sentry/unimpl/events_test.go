@@ -18,8 +18,8 @@ package events_test
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/unimpl"
+	"github.com/maxnasonov/gvisor/pkg/sentry/kernel"
+	"github.com/maxnasonov/gvisor/pkg/sentry/unimpl"
 )
 
 // TestInterfaceMatch verifies that kernel.Kernel implements interface unimpl.Events.

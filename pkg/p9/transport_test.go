@@ -19,8 +19,8 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/unet"
+	"github.com/maxnasonov/gvisor/pkg/fd"
+	"github.com/maxnasonov/gvisor/pkg/unet"
 )
 
 const (

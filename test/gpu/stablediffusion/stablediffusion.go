@@ -27,8 +27,8 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/pkg/test/dockerutil"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
 )
 
 // ContainerRunner is an interface to run containers.

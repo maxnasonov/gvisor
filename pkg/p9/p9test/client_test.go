@@ -27,9 +27,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/p9"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/fd"
+	"github.com/maxnasonov/gvisor/pkg/p9"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 func TestPanic(t *testing.T) {

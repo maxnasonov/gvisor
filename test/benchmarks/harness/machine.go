@@ -20,8 +20,8 @@ import (
 	"net"
 	"os/exec"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/pkg/test/dockerutil"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
 )
 
 // Machine describes a real machine for use in benchmarks.

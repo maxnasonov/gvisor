@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/maxnasonov/gvisor/test/packetimpact/testbench"
 )
 
 var oneSecond = unix.Timeval{Sec: 1, Usec: 0}

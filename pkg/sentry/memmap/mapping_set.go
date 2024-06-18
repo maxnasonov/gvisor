@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"math"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
 )
 
 // MappingSet maps offsets into a Mappable to mappings of those offsets. It is

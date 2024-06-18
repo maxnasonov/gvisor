@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/refs"
+	"github.com/maxnasonov/gvisor/pkg/atomicbitops"
+	"github.com/maxnasonov/gvisor/pkg/refs"
 )
 
 // enableLogging indicates whether reference-related events should be logged (with

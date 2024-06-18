@@ -35,8 +35,8 @@ import (
 
 	"github.com/google/subcommands"
 	"github.com/kr/pty"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/runsc/flag"
 )
 
 func main() {

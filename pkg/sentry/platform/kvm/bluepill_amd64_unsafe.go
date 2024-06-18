@@ -21,8 +21,8 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/ring0"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/maxnasonov/gvisor/pkg/ring0"
+	"github.com/maxnasonov/gvisor/pkg/sentry/arch"
 )
 
 // dieArchSetup initializes the state for dieTrampoline.

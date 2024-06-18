@@ -32,7 +32,7 @@ go_template_instance(
     name = "seqatomic_time",
     out = "seqatomic_time_unsafe.go",
     imports = {
-        "time": "gvisor.dev/gvisor/pkg/sentry/kernel/time",
+        "time": "github.com/maxnasonov/gvisor/pkg/sentry/kernel/time",
     },
     package = "fuse",
     suffix = "Time",

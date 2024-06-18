@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip/faketime"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/faketime"
 )
 
 func TestManualClockAdvance(t *testing.T) {

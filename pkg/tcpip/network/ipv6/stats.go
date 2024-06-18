@@ -15,9 +15,9 @@
 package ipv6
 
 import (
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/network/internal/ip"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/network/internal/ip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/stack"
 )
 
 var _ stack.IPNetworkEndpointStats = (*Stats)(nil)

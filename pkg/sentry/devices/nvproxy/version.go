@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/nvgpu"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/abi/nvgpu"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 // DriverVersion represents a NVIDIA driver version patch release.

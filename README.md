@@ -92,14 +92,14 @@ For example, to build and install `runsc` directly from this branch:
 
 ```sh
 echo "module runsc" > go.mod
-GO111MODULE=on go get gvisor.dev/gvisor/runsc@go
-CGO_ENABLED=0 GO111MODULE=on sudo -E go build -o /usr/local/bin/runsc gvisor.dev/gvisor/runsc
+GO111MODULE=on go get github.com/maxnasonov/gvisor/runsc@go
+CGO_ENABLED=0 GO111MODULE=on sudo -E go build -o /usr/local/bin/runsc github.com/maxnasonov/gvisor/runsc
 ```
 
 Subsequently, you can build and install the shim binary for `containerd`:
 
 ```sh
-GO111MODULE=on sudo -E go build -o /usr/local/bin/containerd-shim-runsc-v1 gvisor.dev/gvisor/shim
+GO111MODULE=on sudo -E go build -o /usr/local/bin/containerd-shim-runsc-v1 github.com/maxnasonov/gvisor/shim
 ```
 
 Note that this branch is supported in a best effort capacity, and direct

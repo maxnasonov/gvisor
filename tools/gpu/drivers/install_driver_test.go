@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
+	"github.com/maxnasonov/gvisor/pkg/sentry/devices/nvproxy"
 )
 
 // TestVersionInstalled tests when the version is already installed.

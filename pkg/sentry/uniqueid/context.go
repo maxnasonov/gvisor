@@ -17,7 +17,7 @@
 package uniqueid
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
+	"github.com/maxnasonov/gvisor/pkg/context"
 )
 
 // contextID is the kernel package's type for context.Context.Value keys.

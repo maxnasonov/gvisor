@@ -38,8 +38,8 @@ import (
 	"github.com/docker/go-connections/nat"
 	"github.com/moby/moby/client"
 	"github.com/moby/moby/pkg/stdcopy"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
 )
 
 // Container represents a Docker Container allowing

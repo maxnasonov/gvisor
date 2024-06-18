@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/fd"
+	"github.com/maxnasonov/gvisor/pkg/fd"
 )
 
 func TestAsyncReader(t *testing.T) {

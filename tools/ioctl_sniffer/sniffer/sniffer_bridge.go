@@ -20,7 +20,7 @@ import (
 	"io"
 
 	"google.golang.org/protobuf/proto"
-	pb "gvisor.dev/gvisor/tools/ioctl_sniffer/ioctl_go_proto"
+	pb "github.com/maxnasonov/gvisor/tools/ioctl_sniffer/ioctl_go_proto"
 )
 
 var (

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"sync"
 
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/maxnasonov/gvisor/runsc/flag"
 )
 
 var (

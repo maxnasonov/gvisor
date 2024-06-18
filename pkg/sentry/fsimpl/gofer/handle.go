@@ -16,11 +16,11 @@ package gofer
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/lisafs"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/sentry/hostfd"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/context"
+	"github.com/maxnasonov/gvisor/pkg/lisafs"
+	"github.com/maxnasonov/gvisor/pkg/safemem"
+	"github.com/maxnasonov/gvisor/pkg/sentry/hostfd"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 var noHandle = handle{

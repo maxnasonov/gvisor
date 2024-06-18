@@ -22,11 +22,11 @@ import (
 	"regexp"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/abi/nvgpu"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
-	pb "gvisor.dev/gvisor/tools/ioctl_sniffer/ioctl_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/abi/linux"
+	"github.com/maxnasonov/gvisor/pkg/abi/nvgpu"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/pkg/sentry/devices/nvproxy"
+	pb "github.com/maxnasonov/gvisor/tools/ioctl_sniffer/ioctl_go_proto"
 )
 
 var (

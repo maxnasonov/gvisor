@@ -76,7 +76,7 @@ import (
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/buildssa"
 	"golang.org/x/tools/go/ssa"
-	"gvisor.dev/gvisor/tools/nogo/flags"
+	"github.com/maxnasonov/gvisor/tools/nogo/flags"
 )
 
 const (

@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/gohacks"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/gohacks"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 // Key is a required type parameter.

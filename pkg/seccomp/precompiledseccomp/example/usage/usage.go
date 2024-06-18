@@ -18,9 +18,9 @@ package usage
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/bpf"
-	"gvisor.dev/gvisor/pkg/seccomp/precompiledseccomp"
-	"gvisor.dev/gvisor/pkg/seccomp/precompiledseccomp/example"
+	"github.com/maxnasonov/gvisor/pkg/bpf"
+	"github.com/maxnasonov/gvisor/pkg/seccomp/precompiledseccomp"
+	"github.com/maxnasonov/gvisor/pkg/seccomp/precompiledseccomp/example"
 )
 
 // LoadProgram1 loads the program1 program with the given FDs.

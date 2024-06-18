@@ -16,9 +16,9 @@
 package escape
 
 import (
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal"
-	"gvisor.dev/gvisor/tools/go_marshal/test"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/marshal"
+	"github.com/maxnasonov/gvisor/tools/go_marshal/test"
 )
 
 // dummyCopyContext implements marshal.CopyContext.

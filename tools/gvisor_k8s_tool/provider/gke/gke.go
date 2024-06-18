@@ -23,8 +23,8 @@ import (
 	"path"
 	"strings"
 
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/cluster"
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/util"
+	"github.com/maxnasonov/gvisor/tools/gvisor_k8s_tool/cluster"
+	"github.com/maxnasonov/gvisor/tools/gvisor_k8s_tool/util"
 	"k8s.io/client-go/tools/clientcmd"
 )
 

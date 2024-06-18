@@ -20,7 +20,7 @@ import (
 	"os"
 
 	syscall "golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/tools/embeddedbinary/test/helloworld"
+	"github.com/maxnasonov/gvisor/tools/embeddedbinary/test/helloworld"
 )
 
 func doExec() {

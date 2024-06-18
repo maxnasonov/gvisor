@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"reflect"
 
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/maxnasonov/gvisor/pkg/cpuid"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/sentry/arch"
 )
 
 // HaltAndWriteFSBase halts execution. On resume, it sets FS_BASE from the

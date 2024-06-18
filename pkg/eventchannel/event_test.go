@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"google.golang.org/protobuf/proto"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 // testEmitter is an emitter that can be used in tests. It records all events

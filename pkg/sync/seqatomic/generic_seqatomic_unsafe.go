@@ -10,8 +10,8 @@ package seqatomic
 import (
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/gohacks"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/gohacks"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 // Value is a required type parameter.

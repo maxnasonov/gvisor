@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"gvisor.dev/gvisor/test/metricsviz"
+	"github.com/maxnasonov/gvisor/test/metricsviz"
 )
 
 func main() {

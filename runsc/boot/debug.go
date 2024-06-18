@@ -15,7 +15,7 @@
 package boot
 
 import (
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/pkg/log"
 )
 
 type debug struct {

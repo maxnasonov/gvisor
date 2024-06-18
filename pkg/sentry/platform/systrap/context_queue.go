@@ -17,7 +17,7 @@ package systrap
 import (
 	"sync/atomic"
 
-	"gvisor.dev/gvisor/pkg/sentry/platform"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform"
 )
 
 // LINT.IfChange

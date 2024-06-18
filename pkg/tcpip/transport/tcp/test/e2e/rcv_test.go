@@ -17,8 +17,8 @@ package rcv_test
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/header"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/seqnum"
 )
 
 func TestAcceptable(t *testing.T) {

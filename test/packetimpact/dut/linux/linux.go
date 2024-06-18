@@ -22,9 +22,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"gvisor.dev/gvisor/test/packetimpact/dut"
-	netdevs "gvisor.dev/gvisor/test/packetimpact/netdevs/netlink"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/maxnasonov/gvisor/test/packetimpact/dut"
+	netdevs "github.com/maxnasonov/gvisor/test/packetimpact/netdevs/netlink"
+	"github.com/maxnasonov/gvisor/test/packetimpact/testbench"
 )
 
 const (

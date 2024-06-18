@@ -17,8 +17,8 @@ package header
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/testutil"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip/testutil"
 )
 
 func TestIsValidUnicastEthernetAddress(t *testing.T) {

@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/eventchannel"
-	"gvisor.dev/gvisor/pkg/log"
-	pb "gvisor.dev/gvisor/pkg/metric/metric_go_proto"
-	"gvisor.dev/gvisor/pkg/prometheus"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/maxnasonov/gvisor/pkg/atomicbitops"
+	"github.com/maxnasonov/gvisor/pkg/eventchannel"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	pb "github.com/maxnasonov/gvisor/pkg/metric/metric_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/prometheus"
+	"github.com/maxnasonov/gvisor/pkg/sync"
 )
 
 var (

@@ -30,8 +30,8 @@ import (
 	"time"
 
 	"golang.org/x/sync/errgroup"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/maxnasonov/gvisor/pkg/test/dockerutil"
+	"github.com/maxnasonov/gvisor/pkg/test/testutil"
 )
 
 const (

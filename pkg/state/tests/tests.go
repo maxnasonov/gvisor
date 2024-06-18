@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/state"
-	"gvisor.dev/gvisor/pkg/state/pretty"
+	"github.com/maxnasonov/gvisor/pkg/state"
+	"github.com/maxnasonov/gvisor/pkg/state/pretty"
 )
 
 // discard is an implementation of wire.Writer.

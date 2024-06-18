@@ -16,7 +16,7 @@ package xdp
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/maxnasonov/gvisor/pkg/tcpip"
 )
 
 func TestSetAddress(t *testing.T) {

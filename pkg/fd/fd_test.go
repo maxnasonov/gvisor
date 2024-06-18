@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
+	"github.com/maxnasonov/gvisor/pkg/atomicbitops"
 )
 
 func TestSetNegOne(t *testing.T) {

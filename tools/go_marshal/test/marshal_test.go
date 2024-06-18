@@ -27,13 +27,13 @@ import (
 	"unsafe"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/usermem"
-	"gvisor.dev/gvisor/tools/go_marshal/analysis"
-	"gvisor.dev/gvisor/tools/go_marshal/test"
+	"github.com/maxnasonov/gvisor/pkg/errors/linuxerr"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/marshal"
+	"github.com/maxnasonov/gvisor/pkg/marshal/primitive"
+	"github.com/maxnasonov/gvisor/pkg/usermem"
+	"github.com/maxnasonov/gvisor/tools/go_marshal/analysis"
+	"github.com/maxnasonov/gvisor/tools/go_marshal/test"
 )
 
 var simulatedErr error = linuxerr.EFAULT

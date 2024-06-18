@@ -20,7 +20,7 @@ package pagetables
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/maxnasonov/gvisor/pkg/hostarch"
 )
 
 func Test2MAnd4K(t *testing.T) {

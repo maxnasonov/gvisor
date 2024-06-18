@@ -18,8 +18,8 @@
 package boot
 
 import (
-	"gvisor.dev/gvisor/pkg/sentry/control"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
+	"github.com/maxnasonov/gvisor/pkg/sentry/control"
+	"github.com/maxnasonov/gvisor/pkg/sentry/kernel"
 )
 
 func preSaveImpl(*kernel.Kernel, *control.SaveOpts) error {

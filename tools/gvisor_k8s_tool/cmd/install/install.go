@@ -21,12 +21,12 @@ import (
 	"strings"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/cluster"
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/provider/clusterflag"
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/spec"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/runsc/cmd/util"
+	"github.com/maxnasonov/gvisor/runsc/flag"
+	"github.com/maxnasonov/gvisor/tools/gvisor_k8s_tool/cluster"
+	"github.com/maxnasonov/gvisor/tools/gvisor_k8s_tool/provider/clusterflag"
+	"github.com/maxnasonov/gvisor/tools/gvisor_k8s_tool/spec"
 )
 
 // Install installs runsc from the given image in the given cluster.

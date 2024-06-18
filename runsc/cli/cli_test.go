@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/maxnasonov/gvisor/runsc/flag"
 )
 
 var fakeFlagValues = [...]string{

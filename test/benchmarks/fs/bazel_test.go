@@ -20,8 +20,8 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/test/benchmarks/fs/fsbench"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
+	"github.com/maxnasonov/gvisor/test/benchmarks/fs/fsbench"
+	"github.com/maxnasonov/gvisor/test/benchmarks/harness"
 )
 
 // Note: CleanCache versions of this test require running with root permissions.

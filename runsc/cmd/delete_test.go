@@ -18,7 +18,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gvisor.dev/gvisor/runsc/config"
+	"github.com/maxnasonov/gvisor/runsc/config"
 )
 
 func TestNotFound(t *testing.T) {

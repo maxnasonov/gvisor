@@ -22,8 +22,8 @@ import (
 	"os/user"
 	"path"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/cluster"
+	"github.com/maxnasonov/gvisor/pkg/log"
+	"github.com/maxnasonov/gvisor/tools/gvisor_k8s_tool/cluster"
 	"k8s.io/client-go/tools/clientcmd"
 )
 

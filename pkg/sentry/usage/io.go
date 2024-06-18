@@ -14,7 +14,7 @@
 
 package usage
 
-import "gvisor.dev/gvisor/pkg/atomicbitops"
+import "github.com/maxnasonov/gvisor/pkg/atomicbitops"
 
 // IO contains I/O-related statistics.
 //

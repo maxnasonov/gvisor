@@ -25,7 +25,7 @@ go_template_instance(
     name = "dirty_set_impl",
     out = "dirty_set_impl.go",
     imports = {
-        "memmap": "gvisor.dev/gvisor/pkg/sentry/memmap",
+        "memmap": "github.com/maxnasonov/gvisor/pkg/sentry/memmap",
     },
     package = "fsutil",
     prefix = "Dirty",
@@ -42,7 +42,7 @@ go_template_instance(
     name = "frame_ref_set_impl",
     out = "frame_ref_set_impl.go",
     imports = {
-        "memmap": "gvisor.dev/gvisor/pkg/sentry/memmap",
+        "memmap": "github.com/maxnasonov/gvisor/pkg/sentry/memmap",
     },
     package = "fsutil",
     prefix = "FrameRef",
@@ -59,7 +59,7 @@ go_template_instance(
     name = "file_range_set_impl",
     out = "file_range_set_impl.go",
     imports = {
-        "memmap": "gvisor.dev/gvisor/pkg/sentry/memmap",
+        "memmap": "github.com/maxnasonov/gvisor/pkg/sentry/memmap",
     },
     package = "fsutil",
     prefix = "FileRange",

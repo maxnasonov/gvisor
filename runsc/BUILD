@@ -13,7 +13,7 @@ go_binary(
     visibility = [
         "//visibility:public",
     ],
-    x_defs = {"gvisor.dev/gvisor/runsc/version.version": "{STABLE_VERSION}"},
+    x_defs = {"github.com/maxnasonov/gvisor/runsc/version.version": "{STABLE_VERSION}"},
     deps = [
         "//runsc/cli",
         "//runsc/version",
@@ -41,7 +41,7 @@ go_binary(
     visibility = [
         "//visibility:public",
     ],
-    x_defs = {"gvisor.dev/gvisor/runsc/version.version": "{STABLE_VERSION}"},
+    x_defs = {"github.com/maxnasonov/gvisor/runsc/version.version": "{STABLE_VERSION}"},
     deps = [
         "//runsc/cli",
         "//runsc/version",

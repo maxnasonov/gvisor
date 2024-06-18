@@ -23,8 +23,8 @@ import (
 
 	"golang.org/x/sys/unix"
 	"google.golang.org/protobuf/proto"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/test"
+	pb "github.com/maxnasonov/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/maxnasonov/gvisor/pkg/sentry/seccheck/sinks/remote/test"
 )
 
 func extraMatchers(t *testing.T, msgs []test.Message, matchers map[pb.MessageType]*checkers) {

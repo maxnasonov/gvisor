@@ -19,7 +19,7 @@ package testbench
 
 import (
 	"google.golang.org/grpc"
-	pb "gvisor.dev/gvisor/test/packetimpact/proto/posix_server_go_proto"
+	pb "github.com/maxnasonov/gvisor/test/packetimpact/proto/posix_server_go_proto"
 )
 
 // POSIXClient is a gRPC client for the Posix service.

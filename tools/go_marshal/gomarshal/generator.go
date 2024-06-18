@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	"gvisor.dev/gvisor/tools/constraintutil"
+	"github.com/maxnasonov/gvisor/tools/constraintutil"
 )
 
 // List of identifiers we use in generated code that may conflict with a
@@ -111,9 +111,9 @@ func NewGenerator(srcs []string, out, outTest, outTestUnconditional, pkg string,
 	g.imports.add("reflect")
 	g.imports.add("runtime")
 	g.imports.add("unsafe")
-	g.imports.add("gvisor.dev/gvisor/pkg/gohacks")
-	g.imports.add("gvisor.dev/gvisor/pkg/hostarch")
-	g.imports.add("gvisor.dev/gvisor/pkg/marshal")
+	g.imports.add("github.com/maxnasonov/gvisor/pkg/gohacks")
+	g.imports.add("github.com/maxnasonov/gvisor/pkg/hostarch")
+	g.imports.add("github.com/maxnasonov/gvisor/pkg/marshal")
 	return &g, nil
 }
 

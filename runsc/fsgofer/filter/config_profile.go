@@ -16,7 +16,7 @@ package filter
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
 )
 
 var profileFilters = seccomp.MakeSyscallRules(map[uintptr]seccomp.SyscallRule{

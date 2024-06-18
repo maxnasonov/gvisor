@@ -18,7 +18,7 @@
 package secfuzz
 
 import (
-	"gvisor.dev/gvisor/pkg/bpf"
+	"github.com/maxnasonov/gvisor/pkg/bpf"
 )
 
 // Go does coverage-based fuzzing, so it discovers inputs that are

@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/platform/kvm"
-	"gvisor.dev/gvisor/pkg/sentry/platform/systrap"
+	"github.com/maxnasonov/gvisor/pkg/seccomp"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform/kvm"
+	"github.com/maxnasonov/gvisor/pkg/sentry/platform/systrap"
 )
 
 func TestIoctlFirstArgumentIsNonNegativeFD(t *testing.T) {

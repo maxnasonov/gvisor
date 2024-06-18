@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/test/benchmarks/fs/fsbench"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
+	"github.com/maxnasonov/gvisor/test/benchmarks/fs/fsbench"
+	"github.com/maxnasonov/gvisor/test/benchmarks/harness"
+	"github.com/maxnasonov/gvisor/test/benchmarks/tools"
 )
 
 func runRubyBenchmark(b *testing.B, bm fsbench.FSBenchmark, cleanupDirPatterns []string) {
