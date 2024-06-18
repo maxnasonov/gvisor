@@ -19,6 +19,7 @@ package channel
 
 import (
 	"context"
+	"fmt"
 
 	"gvisor.dev/gvisor/pkg/sync"
 	"gvisor.dev/gvisor/pkg/tcpip"
@@ -200,6 +201,7 @@ func (e *Endpoint) InjectInbound(protocol tcpip.NetworkProtocolNumber, pkt *stac
 	e.mu.RLock()
 	d := e.dispatcher
 	e.mu.RUnlock()
+	fmt.Printf("network dispatcher %v", d)
 	if d != nil {
 		d.DeliverNetworkPacket(protocol, pkt)
 	}
